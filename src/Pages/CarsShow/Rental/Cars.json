@@ -1,0 +1,57 @@
+[
+    {
+        
+        "img":"https://www.gac-motor.com/static/en/model/images/gs4/car.png",
+        "id": 1,
+        "Tag": "SUV",
+        "name":"ALL NEW GS4",
+        "Color": "black",
+        "price": 450000,
+        "stock": 1
+    },
+    {
+        "img":"https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-black-super-car-png-image_11921537.png",
+        "id": 2,
+        "Tag": "SportCars",
+        "name":"ลัมโบกิหนี่",
+        "Color": "black",
+        "price": 1450000,
+        "stock": 1
+    },
+    {
+        "img":"https://www.gac-motor.com/static/en/model/images/gs4/car.png",
+        "id": 1,
+        "Tag": "SUV",
+        "name":"ALL NEW GS4",
+        "Color": "black",
+        "price": 450000,
+        "stock": 1
+    },
+    {
+        "img":"https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-black-super-car-png-image_11921537.png",
+        "id": 2,
+        "Tag": "SportCars",
+        "name":"ลัมโบกิหนี่",
+        "Color": "black",
+        "price": 1450000,
+        "stock": 1
+    },
+    {
+        "img":"https://www.gac-motor.com/static/en/model/images/gs4/car.png",
+        "id": 1,
+        "Tag": "SUV",
+        "name":"ALL NEW GS4",
+        "Color": "black",
+        "price": 450000,
+        "stock": 1
+    },
+    {
+        "img":"https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-black-super-car-png-image_11921537.png",
+        "id": 2,
+        "Tag": "SportCars",
+        "name":"ลัมโบกิหนี่",
+        "Color": "black",
+        "price": 1450000,
+        "stock": 1
+    }
+]

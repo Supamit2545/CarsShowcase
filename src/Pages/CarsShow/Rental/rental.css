@@ -1,0 +1,20 @@
+.Catas{
+    border: 2px solid black;
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.Catas:hover{
+    background: lightcoral;
+}
+.active-Catas{
+    background: red;
+    color: white;
+}
+.CatasShow{
+    display: none;
+
+}
+.active-CatasShow{
+    display: block;
+}

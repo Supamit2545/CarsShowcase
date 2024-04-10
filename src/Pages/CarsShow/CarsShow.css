@@ -1,0 +1,108 @@
+.CarsShowbg{
+    background-image: url("https://img.freepik.com/free-photo/red-light-round-podium-black-background-mock-up_43614-950.jpg?size=626&ext=jpg&ga=GA1.2.182544997.1711048712&semt=sph");
+    background-size:cover;
+    background-position: 0px -20cm;
+    background-repeat: no-repeat;
+    position:relative;
+    height: 850px;
+}
+.CarShowing{
+    margin-left: 29%;
+    margin-top: 10%;
+    width: 770px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+        
+}
+.CarsImg{
+    display: flex;
+    gap: 150px;
+    width: 70cm;
+    height: 500px;
+    align-items: center;
+    
+}
+.Cars{
+    width: 100%;
+    object-fit: contain;
+    
+}
+.neonText {
+    color: #fff;
+    text-shadow:
+      0 0 2px #fff,
+      0 0 2px black,
+      0 0 10px #e00a0a,
+      0 0 102px #e40c0c,
+      0 0 151px #c91414;
+}
+.InfoOfCars{
+    text-align: center;
+    background: rgb(199, 195, 195);
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-top: -30%;
+    margin-right: 50px;
+    border-radius: 20px;
+    box-sizing: content-box;
+    box-shadow: 10px 10px 10px;
+}
+.content{
+    display:none;
+    position: relative;
+}
+.active-content{
+    margin-top: 5%;
+    display: block;
+}
+
+@media screen and (max-width: 1920px){
+    div.CarsImg{
+        margin:auto;
+    }
+}
+@media screen and (max-width: 1655px){
+    div.CarsShowbg{
+        background-position: 0%;
+        width: auto;
+        height: 850px;
+    }
+    div.InfoOfCars{
+        margin-top: 0px;
+        margin-right: 25%;
+    }
+}
+@media screen and (max-width: 1000px){
+    div.CarsShowbg{
+        background-position: 0%;
+        width: auto;
+        height: 850px;
+    }
+}
+@media screen and (max-width: 880px){
+    div.CarsShowbg{
+        background-position: 50%;
+        width: auto;
+        height: 850px;
+    }
+    div.Cars{
+        width: 500px;
+    }
+    div.CarShowing{
+        margin-left: -5%;
+        width: 500px;
+    }
+    
+
+}
+@media screen and (max-width: 375px){
+    div.CarsShowbg{
+        background-position: 50%;
+        width: auto;
+        height: 650px;
+    }
+}
